@@ -70,10 +70,12 @@ li>a{
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    padding:5% 0;
 }
 
 .card{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
     
 }
 .card-img{
@@ -128,6 +130,18 @@ li>a{
 
 .crossed-number{
     text-decoration: line-through;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding:  30px;
+    line-height: 2;
+}
+dic.d-flex > span{
+    padding-right: 10px;
 }
 .debug{
     border: 2px solid black;
