@@ -74,16 +74,61 @@ li>a{
 
 .card{
     width: calc(100% / 3);
-    padding: 20px;
+    
+}
+.card-img{
+    position: relative;
+}
+.hearts{ 
+    color: var(--color-black);
+    background-color: var(--color-white);
+    width: 20px;
+    height: 20px;
+    font-size: 2em;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    text-align: center;
+   
+}
+.tag{
+    position: absolute;
+    left:0;
+    bottom: 8%;
+    text-align: center;
+    gap: 5px;
+}
+.discount{
+    color: var(--color-white);
+    background-color: var(--color-red);
+    padding: 5px 10px;    
+}
+.eco{
+    color: var(--color-white);
+    background-color: var(--color-green);
+    padding: 5px;    
+}
+.img{
+    width:100% ;
     position: relative;
 }
 
-.discount{
-    position: absolute;
-    top: 2px;
-    right: 2px;
+.card-text{
+    font-size: 0.6em;
+    line-height:1.2;
+    padding: 2px 0;
+}
+.title{
+    text-transform: uppercase;
+}
+.red-number{
+    color: var(--color-red);
+    font-weight: 800;
 }
 
+.crossed-number{
+    text-decoration: line-through;
+}
 .debug{
     border: 2px solid black;
 }
