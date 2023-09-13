@@ -1,0 +1,49 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 20%; 
+    
+}
+/* header */
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+/* main */
+
+
+
+.card-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.card{
+    width: calc(100% / 3);
+    padding: 20px;
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.debug{
+    border: 2px solid black;
+}
